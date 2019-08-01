@@ -395,7 +395,7 @@ var setLabelSize = function (chart, data, options) {
   if (maxLabelSize > 25) {
     maxLabelSize = 25;
   } else if (maxLabelSize < 10) {
-    maxLabelSize = 10;
+    maxLabelSize = 15;
   }
   if (!options.scales.xAxes[0].ticks.callback) {
     options.scales.xAxes[0].ticks.callback = function (value) {
