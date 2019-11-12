@@ -1646,8 +1646,8 @@
     link.download = download.filename || "chart.png"; // https://caniuse.com/download
 
     link.style.position = "absolute";
-    link.style.top = "290px";
-    link.style.right = "20px";
+    link.style.top = "285px";
+    link.style.right = "0px";
     link.style.zIndex = 1000;
     link.style.lineHeight = "20px";
     link.target = "_blank"; // for safari
